@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bar.close .bar2{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bar.close .bar1{
+        transform:rotate(45deg) translate(0px, 0px);
+    }
+    .bar.close .bar3{
+        transform:rotate(-45deg) translate(11px, -11px);
+    }
+    .mobile-navigation.open{
+        visibility:visible;
+        opacity:1;
+    }
+}
